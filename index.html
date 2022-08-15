@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Pascoal Kahamba | Exercise</title>
+  </head>
+  <body>
+    <h1>Pascoal Kahamba Exercise jQuery</h1>
+    <main>
+      <div class="title">
+        <h2>Produtos</h2>
+        <span>Lista de Produtos da minha loja</span>
+      </div>
+      <div class="sidebar">
+        <div class="itens">
+          <label for="produto">Produto: </label>
+          <input
+            type="text"
+            name="text-produto"
+            id="produto"
+            placeholder="nome do produto"
+          />
+        </div>
+        <div class="itens">
+          <label for="valor">Valor: </label>
+          <input
+            type="number"
+            name="text-valor"
+            id="valor"
+            placeholder="valor do produto"
+          />
+        </div>
+        <button id="salvar">Salvar</button>
+        <button id="cancelar">Cancelar</button>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Produto</th>
+            <th>Valor</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+    </main>
+    <script src="Jquery/jquery.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
