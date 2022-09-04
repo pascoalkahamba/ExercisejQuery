@@ -2,7 +2,7 @@
 
 Este `projeto` foi criado para fins de `exercicíos` para melhorar as minhas `habilidades` em `jQuery` especificamente em `Programação Orientada a Objetos`, então é um projeto que tem o função de `adicionar` `editar` e `excluir` `produtos` de uma determinada lista ele pedi simplesmente o nome e valor do produto assim que o `usuário` clicar em `salvar` vai adicionando produtos na sua `lista` pode também `cancelar` se não quiseres adicionar um certo produto, em `suma` o projeto funciona desta forma.
 
-![Aqui aparece a foto do projeto](img/fotoproject.PNG)
+![Aqui aparece a foto do projeto](img/fotoprojeto02.PNG)
 
 ## Tecnologias
 
