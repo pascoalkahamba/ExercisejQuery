@@ -29,10 +29,10 @@ class Project {
     this.products.value = this.$inputValue.val();
     if (this.editId === null) {
       this.allProducts.push(this.products);
+      this.id++;
     } else {
       this.onUpDateElements(this.editId, this.products);
     }
-    this.id++;
     console.log(this.allProducts);
     this.emptyField();
     this.addElementsHTML();
@@ -80,6 +80,7 @@ class Project {
         product.value = products.value;
       }
     });
+    this.cancelFunction();
   }
 
   onDeleteElements(id) {
